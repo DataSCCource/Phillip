@@ -17,6 +17,7 @@ namespace ConsoleAppC
             StreamReader sr = null;
             StreamWriter sw = null;
 
+            Console.WriteLine("Test");
             Console.Write("Eingabe Pfad und Dateinahme (z.B. C:\\daten\\kunden.txt): ");
             datei = Console.ReadLine();
 
